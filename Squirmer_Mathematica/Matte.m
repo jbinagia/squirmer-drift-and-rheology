@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 (*
 MIT License: https://opensource.org/licenses/MIT
 
@@ -31,6 +33,7 @@ Clear[renumber, renumberUnique,
 symmetricTensorPattern = delta | e | T[_,_,_] | Q | \[Theta];
 antisymmetricTensorPattern = o | op | eps;
 tracelessTensorPattern = a | e | Q| \[Theta]; 
+unitVectorPattern = p;
 
 symmetryRules = {
 
@@ -172,6 +175,8 @@ trace[tracelessTensorPattern] := 0;
 trace[antisymmetricTensorPattern] := 0;
 trace[delta ..] := 3
 sqr[delta]:=3
+sqr[p]:=1
+
 
 (* Replacement rules *)
 tensorRules = {
@@ -530,7 +535,7 @@ invfourierT[T[l_, l_, k][idc__]] := (-1)^l Psi[0, l] invr[3] T[l, l, r][idc] /;
   Not[l <= 0 && EvenQ[l]] && Not[-l - 3 >= 0 && EvenQ[-l - 3]]
 
 
-Print["Matte package loaded. © 2017-2018 Jonas Einarsson (me@jonaseinarsson.se)"]
+Print["Matte package loaded. \[Copyright] 2017-2018 Jonas Einarsson (me@jonaseinarsson.se)"]
 Print["Released under the MIT License https://opensource.org/licenses/MIT"]
 
 EndPackage[]
