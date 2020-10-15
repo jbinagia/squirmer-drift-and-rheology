@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    575447,      10722]
-NotebookOptionsPosition[    567373,      10568]
-NotebookOutlinePosition[    567718,      10583]
-CellTagsIndexPosition[    567675,      10580]
+NotebookDataLength[    575378,      10717]
+NotebookOptionsPosition[    567339,      10565]
+NotebookOutlinePosition[    567682,      10580]
+CellTagsIndexPosition[    567639,      10577]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -10520,8 +10520,6 @@ Cell[BoxData[
  CellLabel->"Out[91]=",ExpressionUUID->"0ff68845-9af0-47eb-ae89-a343112fd1a5"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"prettyprint", "[", 
   RowBox[{"contract", "[", 
@@ -10564,10 +10562,9 @@ Cell[BoxData[
  CellLabel->"Out[92]=",ExpressionUUID->"56e540ef-cc08-4ab2-b902-781ccab95aa3"]
 }, Open  ]]
 }, Open  ]]
-}, Open  ]]
 },
-WindowSize->{1904, 997},
-WindowMargins->{{-245, Automatic}, {Automatic, 63}},
+WindowSize->{1920, 997},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -10718,10 +10715,8 @@ Cell[CellGroupData[{
 Cell[565110, 10491, 351, 8, 28, "Input",ExpressionUUID->"ca4eec9d-fb42-4898-bc56-ce71e016c5a9"],
 Cell[565464, 10501, 574, 18, 50, "Output",ExpressionUUID->"0ff68845-9af0-47eb-ae89-a343112fd1a5"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[566075, 10524, 445, 10, 28, InheritFromParent,ExpressionUUID->"97345f6b-2b03-43a4-9b68-666abc403e00"],
-Cell[566523, 10536, 810, 27, 50, "Output",ExpressionUUID->"56e540ef-cc08-4ab2-b902-781ccab95aa3"]
-}, Open  ]]
+Cell[566053, 10522, 445, 10, 28, InheritFromParent,ExpressionUUID->"97345f6b-2b03-43a4-9b68-666abc403e00"],
+Cell[566501, 10534, 810, 27, 50, "Output",ExpressionUUID->"56e540ef-cc08-4ab2-b902-781ccab95aa3"]
 }, Open  ]]
 }, Open  ]]
 }
